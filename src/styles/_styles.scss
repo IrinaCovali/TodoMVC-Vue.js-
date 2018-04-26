@@ -1,0 +1,39 @@
+.main {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.add {
+  height: 26px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.button-add {
+  min-width: 88px;
+  background: #2196f3;
+  color: #fff;
+}
+
+.button-delete {
+  color: red;
+}
+
+.todo-enter-active, .todo-leave-active {
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.todo-enter, .todo-leave-to {
+  opacity: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
